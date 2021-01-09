@@ -94,7 +94,7 @@ public class RegisterActivity extends AppCompatActivity {
                                 }
                             });
                         }else {
-                            Toast.makeText(RegisterActivity.this, "Selamat Datang Di aplikasi E-Learning Apa Adanya", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(RegisterActivity.this, "Anda Tidak Bisa menggunakan Email dan Password Ini", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });

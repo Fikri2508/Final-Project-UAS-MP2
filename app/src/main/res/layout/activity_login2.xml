@@ -4,10 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#009688"
     tools:context=".LoginActivity2">
 
 
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,8 +23,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Silahkan Log in "
+            android:textColor="#ffff"
             android:textSize="20sp"
             android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            tools:visibility="visible" />
+
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:layout_width="match_parent"
@@ -53,5 +63,7 @@
 
 
     </LinearLayout>
+
+    </ScrollView>
 
 </RelativeLayout>

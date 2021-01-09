@@ -4,18 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#009688"
     tools:context=".StartActivity">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome To Try.IT"
         android:layout_marginTop="30dp"
-        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
         android:textSize="35sp"
-        android:textColor="#FF0000"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"
+            tools:visibility="visible" />
+    </LinearLayout>
+
+    </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -44,7 +64,6 @@
             android:textColor="#FF0000"
             android:textStyle="bold"
             android:id="@+id/btn_ORegister"/>
-
 
 
     </RelativeLayout>
